@@ -105,7 +105,7 @@ export default function Home() {
 
 			{/* FOOTER */}
 			<footer className="border-t border-slate-800 py-6 text-center text-xs text-gray-400">
-				© 2026 Titonex Software Solutions
+				© 2026 Titonex: Software Solutions
 			</footer>
 		</main>
 	);
