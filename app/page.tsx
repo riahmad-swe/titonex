@@ -24,26 +24,29 @@ export default function Home() {
 						<h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
 							Building Software
 							<br />
-							<span className="text-accent">That Performs Under Pressure</span>
+							<span className="text-accent">
+								That Performs Under Pressure
+							</span>
 						</h1>
 
 						<p className="text-gray-300 text-lg mb-8">
-							Titonex is a software development company building scalable
-							technology for essential, real-world services across logistics,
-							mobility, healthcare, and water infrastructure - where reliability
-							and speed are non-negotiable.
+							Titonex is a software development company building
+							scalable technology for essential, real-world
+							services across logistics, mobility, healthcare, and
+							water infrastructure - where reliability and speed
+							are non-negotiable.
 						</p>
 
 						<div className="flex flex-wrap gap-4">
 							<button
 								className="
-                  inline-flex items-center justify-center
-                  px-8 py-3 rounded-full
-                  bg-accent text-white font-semibold
-                  shadow-lg shadow-blue-600/30
-                  hover:bg-blue-500 hover:shadow-blue-500/40
-                  transition-all duration-200
-                  active:scale-95
+                inline-flex items-center justify-center
+                px-8 py-3 rounded-full
+                bg-accent text-white font-semibold
+                shadow-lg shadow-blue-600/30
+                hover:bg-blue-500 hover:shadow-blue-500/40
+                transition-all duration-200
+                active:scale-95
                 "
 							>
 								Explore Our Platforms
@@ -51,12 +54,13 @@ export default function Home() {
 
 							<button
 								className="
-                  inline-flex items-center justify-center
-                  px-8 py-3 rounded-full
-                  border border-slate-600 text-gray-300
-                  hover:border-accent hover:text-white
-                  transition-all duration-200
-                  active:scale-95
+                inline-flex items-center justify-center
+                px-8 py-3 rounded-full
+                bg-accent text-white font-semibold
+                shadow-lg shadow-blue-600/30
+                hover:bg-blue-500 hover:shadow-blue-500/40
+                transition-all duration-200
+                active:scale-95
                 "
 							>
 								Contact Us
@@ -71,7 +75,9 @@ export default function Home() {
 			{/* SERVICES */}
 			<section className="relative z-10 bg-slate-950 py-24">
 				<div className="max-w-7xl mx-auto px-6">
-					<h2 className="text-3xl font-bold mb-12 text-center">Our Core Platforms</h2>
+					<h2 className="text-3xl font-bold mb-12 text-center">
+						Our Core Platforms
+					</h2>
 
 					<div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
 						<ServiceCard
