@@ -1,6 +1,7 @@
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import { Metadata } from "next";
+import ScrollToTop from "./components/ScrollToTop";
 
 export const metadata: Metadata = {
 	metadataBase: new URL("https://titonex.com"),
@@ -31,6 +32,7 @@ export default function RootLayout({
 			className="dark"
 		>
 			<body className="bg-slate-950 text-gray-200">
+				<ScrollToTop />
 				<Navbar />
 				<main className="pt-20">{children}</main>
 			</body>

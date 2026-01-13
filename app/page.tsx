@@ -58,7 +58,7 @@ export default function Home() {
                 active:scale-95
                 "
 							>
-								Explore Our Platforms
+								Explore Our Products
 							</button>
 
 							<button
@@ -85,28 +85,28 @@ export default function Home() {
 			<section className="relative z-10 bg-slate-950 py-24">
 				<div className="max-w-7xl mx-auto px-6">
 					<h2 className="text-3xl font-bold mb-12 text-center">
-						Our Core Platforms
+						Our Core Products
 					</h2>
 
 					<div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
 						<ServiceCard
 							title="Cold Storage"
-							description="Operational efficiency, inventory tracking, and data-driven decision-making for cold storage logistics with high reliability."
+							description="A high-reliability software platform for monitoring inventory, billings, and operations across cold storage facilities with data-driven control."
 						/>
 
 						<ServiceCard
 							title="Gari-X"
-							description="An on-demand emergency mobility platform connecting people to rapid transportation when time is critical."
+							description="An on-demand emergency mobility platform that enables rapid, reliable transportation when time-critical response is required."
 						/>
 
 						<ServiceCard
 							title="Sustho"
-							description="Digital infrastructure enabling faster access to emergency medical care with secure, high-availability systems."
+							description="A digital healthcare solution designed to accelerate access to emergency medical services through secure, high-availability systems."
 						/>
 
 						<ServiceCard
 							title="Water Technology"
-							description="An essential pure water solution for water treatment plants, drinkable purification systems, and critical water infrastructure management with lifetime services."
+							description="Software solutions for managing water treatment plants, purification systems, RO filters, and critical water infrastructure operations."
 						/>
 					</div>
 				</div>
