@@ -1,3 +1,12 @@
+import {
+	FaEnvelope,
+	FaFacebookF,
+	FaInstagram,
+	FaTelegram,
+	FaWhatsapp,
+	FaXTwitter,
+	FaYoutube,
+} from "react-icons/fa6";
 import AnimatedWaves from "./components/AnimatedWaves";
 import ServiceCard from "./components/ServiceCard";
 
@@ -104,8 +113,440 @@ export default function Home() {
 			</section>
 
 			{/* FOOTER */}
-			<footer className="border-t border-slate-800 py-6 text-center text-xs text-gray-400">
-				© 2026 Titonex: Software Solutions
+			<footer className="relative bg-slate-950 border-t border-slate-900">
+				<div className="max-w-7xl mx-auto px-6 py-16">
+					{/* Top Grid */}
+					<div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
+						{/* Brand */}
+						<div>
+							<h3 className="text-lg font-semibold mb-4">
+								Titonex
+							</h3>
+							<p className="text-sm text-gray-400 leading-relaxed mb-6">
+								Streamlining your life. Smarter systems for your
+								life.
+							</p>
+
+							{/* Social Icons */}
+							<div className="flex gap-1.5">
+								<a
+									href="#"
+									className="
+        flex h-8 w-8 items-center justify-center
+        rounded-full
+        border border-slate-700
+        text-gray-400
+        transition-all duration-200
+        hover:text-white hover:border-accent
+        hover:bg-accent/10
+        hover:shadow-md hover:shadow-blue-600/30
+        active:scale-95
+      "
+								>
+									<FaEnvelope />
+								</a>
+								<a
+									href="#"
+									className="
+        flex h-8 w-8 items-center justify-center
+        rounded-full
+        border border-slate-700
+        text-gray-400
+        transition-all duration-200
+        hover:text-white hover:border-accent
+        hover:bg-accent/10
+        hover:shadow-md hover:shadow-blue-600/30
+        active:scale-95
+      "
+								>
+									<FaFacebookF />
+								</a>
+								<a
+									href="#"
+									className="
+        flex h-8 w-8 items-center justify-center
+        rounded-full
+        border border-slate-700
+        text-gray-400
+        transition-all duration-200
+        hover:text-white hover:border-accent
+        hover:bg-accent/10
+        hover:shadow-md hover:shadow-blue-600/30
+        active:scale-95
+      "
+								>
+									<FaInstagram />
+								</a>
+								<a
+									href="#"
+									className="
+        flex h-8 w-8 items-center justify-center
+        rounded-full
+        border border-slate-700
+        text-gray-400
+        transition-all duration-200
+        hover:text-white hover:border-accent
+        hover:bg-accent/10
+        hover:shadow-md hover:shadow-blue-600/30
+        active:scale-95
+      "
+								>
+									<FaXTwitter />
+								</a>
+								<a
+									href="#"
+									className="
+        flex h-8 w-8 items-center justify-center
+        rounded-full
+        border border-slate-700
+        text-gray-400
+        transition-all duration-200
+        hover:text-white hover:border-accent
+        hover:bg-accent/10
+        hover:shadow-md hover:shadow-blue-600/30
+        active:scale-95
+      "
+								>
+									<FaWhatsapp />
+								</a>
+								<a
+									href="#"
+									className="
+        flex h-8 w-8 items-center justify-center
+        rounded-full
+        border border-slate-700
+        text-gray-400
+        transition-all duration-200
+        hover:text-white hover:border-accent
+        hover:bg-accent/10
+        hover:shadow-md hover:shadow-blue-600/30
+        active:scale-95
+      "
+								>
+									<FaTelegram />
+								</a>
+								<a
+									href="#"
+									className="
+        flex h-8 w-8 items-center justify-center
+        rounded-full
+        border border-slate-700
+        text-gray-400
+        transition-all duration-200
+        hover:text-white hover:border-accent
+        hover:bg-accent/10
+        hover:shadow-md hover:shadow-blue-600/30
+        active:scale-95
+      "
+								>
+									<FaYoutube />
+								</a>
+							</div>
+						</div>
+
+						{/* About */}
+						<div>
+							<h4 className="text-sm font-semibold mb-4 uppercase tracking-wider text-gray-300">
+								About
+							</h4>
+							<ul className="space-y-2 text-sm">
+								<li>
+									<a
+										href="#"
+										className="
+          group inline-flex items-center gap-1
+          text-gray-400
+          transition-all duration-200
+          hover:text-white
+        "
+									>
+										<span
+											className="
+            relative
+            after:absolute after:left-0 after:-bottom-0.5
+            after:h-px after:w-0
+            after:bg-accent
+            after:transition-all after:duration-300
+            group-hover:after:w-full
+          "
+										>
+											About Us
+										</span>
+									</a>
+								</li>
+								<li>
+									<a
+										href="#"
+										className="
+          group inline-flex items-center gap-1
+          text-gray-400
+          transition-all duration-200
+          hover:text-white
+        "
+									>
+										<span
+											className="
+            relative
+            after:absolute after:left-0 after:-bottom-0.5
+            after:h-px after:w-0
+            after:bg-accent
+            after:transition-all after:duration-300
+            group-hover:after:w-full
+          "
+										>
+											Careers
+										</span>
+									</a>
+								</li>
+								<li>
+									<a
+										href="#"
+										className="
+          group inline-flex items-center gap-1
+          text-gray-400
+          transition-all duration-200
+          hover:text-white
+        "
+									>
+										<span
+											className="
+            relative
+            after:absolute after:left-0 after:-bottom-0.5
+            after:h-px after:w-0
+            after:bg-accent
+            after:transition-all after:duration-300
+            group-hover:after:w-full
+          "
+										>
+											Contact
+										</span>
+									</a>
+								</li>
+								<li>
+									<a
+										href="#"
+										className="
+          group inline-flex items-center gap-1
+          text-gray-400
+          transition-all duration-200
+          hover:text-white
+        "
+									>
+										<span
+											className="
+            relative
+            after:absolute after:left-0 after:-bottom-0.5
+            after:h-px after:w-0
+            after:bg-accent
+            after:transition-all after:duration-300
+            group-hover:after:w-full
+          "
+										>
+											Sponsorship
+										</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						{/* Products */}
+						<div>
+							<h4 className="text-sm font-semibold mb-4 uppercase tracking-wider text-gray-300">
+								Products
+							</h4>
+							<ul className="space-y-2 text-sm">
+								<li>
+									<a
+										href="#"
+										className="
+          group inline-flex items-center gap-1
+          text-gray-400
+          transition-all duration-200
+          hover:text-white
+        "
+									>
+										<span
+											className="
+            relative
+            after:absolute after:left-0 after:-bottom-0.5
+            after:h-px after:w-0
+            after:bg-accent
+            after:transition-all after:duration-300
+            group-hover:after:w-full
+          "
+										>
+											Gari-X
+										</span>
+									</a>
+								</li>
+								<li>
+									<a
+										href="#"
+										className="
+
+          group inline-flex items-center gap-1
+          text-gray-400
+          transition-all duration-200
+          hover:text-white
+        "
+									>
+										<span
+											className="
+            relative
+            after:absolute after:left-0 after:-bottom-0.5
+            after:h-px after:w-0
+            after:bg-accent
+            after:transition-all after:duration-300
+            group-hover:after:w-full
+          "
+										>
+											Sustho
+										</span>
+									</a>
+								</li>
+								<li>
+									<a
+										href="#"
+										className="
+          group inline-flex items-center gap-1
+          text-gray-400
+          transition-all duration-200
+          hover:text-white
+        "
+									>
+										<span
+											className="
+            relative
+            after:absolute after:left-0 after:-bottom-0.5
+            after:h-px after:w-0
+            after:bg-accent
+            after:transition-all after:duration-300
+            group-hover:after:w-full
+          "
+										>
+											Cold Storage
+										</span>
+									</a>
+								</li>
+								<li>
+									<a
+										href="#"
+										className="
+          group inline-flex items-center gap-1
+          text-gray-400
+          transition-all duration-200
+          hover:text-white
+        "
+									>
+										<span
+											className="
+            relative
+            after:absolute after:left-0 after:-bottom-0.5
+            after:h-px after:w-0
+            after:bg-accent
+            after:transition-all after:duration-300
+            group-hover:after:w-full
+          "
+										>
+											Water Technology
+										</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						{/* Legal */}
+						<div>
+							<h4 className="text-sm font-semibold mb-4 uppercase tracking-wider text-gray-300">
+								Legal
+							</h4>
+							<ul className="space-y-2 text-sm">
+								<li>
+									<a
+										href="#"
+										className="
+          group inline-flex items-center gap-1
+          text-gray-400
+          transition-all duration-200
+          hover:text-white
+        "
+									>
+										<span
+											className="
+            relative
+            after:absolute after:left-0 after:-bottom-0.5
+            after:h-px after:w-0
+            after:bg-accent
+            after:transition-all after:duration-300
+            group-hover:after:w-full
+          "
+										>
+											Privacy Policy
+										</span>
+									</a>
+								</li>
+								<li>
+									<a
+										href="#"
+										className="
+          group inline-flex items-center gap-1
+          text-gray-400
+          transition-all duration-200
+          hover:text-white
+        "
+									>
+										<span
+											className="
+            relative
+            after:absolute after:left-0 after:-bottom-0.5
+            after:h-px after:w-0
+            after:bg-accent
+            after:transition-all after:duration-300
+            group-hover:after:w-full
+          "
+										>
+											Anti-Discrimination Policy
+										</span>
+									</a>
+								</li>
+								<li>
+									<a
+										href="#"
+										className="
+          group inline-flex items-center gap-1
+          text-gray-400
+          transition-all duration-200
+          hover:text-white
+        "
+									>
+										<span
+											className="
+            relative
+            after:absolute after:left-0 after:-bottom-0.5
+
+            after:h-px after:w-0
+            after:bg-accent
+            after:transition-all after:duration-300
+            group-hover:after:w-full
+          "
+										>
+											Terms of Service
+										</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					{/* Divider */}
+					<div className="my-8 h-px bg-slate-900" />
+
+					{/* Bottom */}
+					<div className="flex flex-col md:flex-row justify-center items-center gap-4 text-xs text-gray-500">
+						<span>
+							Titonex © {new Date().getFullYear()} All rights
+							reserved
+						</span>
+					</div>
+				</div>
 			</footer>
 		</main>
 	);
