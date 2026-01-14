@@ -1,0 +1,34 @@
+.container {
+	pointer-events: none;
+	position: fixed;
+	inset: 0;
+	z-index: 99;
+	overflow: hidden;
+}
+
+.snowflake {
+	position: absolute;
+	top: -10px;
+	color: rgba(255, 255, 255, 0.85);
+	user-select: none;
+	will-change: transform;
+	animation-name: fall-drift;
+	animation-timing-function: linear;
+}
+
+.snowflake::before {
+	content: "❄";
+}
+
+@keyframes fall-drift {
+	0% {
+		transform: translateX(0) translateY(0) rotate(0deg);
+	}
+	50% {
+		transform: translateX(calc(var(--drift) / 2)) translateY(55vh)
+			rotate(180deg);
+	}
+	100% {
+		transform: translateX(var(--drift)) translateY(110vh) rotate(360deg);
+	}
+}

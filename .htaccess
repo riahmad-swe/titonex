@@ -1,0 +1,16 @@
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Serve existing files
+  RewriteCond %{REQUEST_FILENAME} -f
+  RewriteRule ^ - [L]
+
+  # Map clean URLs to .html files
+  RewriteCond %{REQUEST_FILENAME}.html -f
+  RewriteRule ^(.+)$ $1.html [L]
+
+  # Fallback to home
+  RewriteRule ^ index.html [L]
+</IfModule>

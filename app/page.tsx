@@ -10,10 +10,12 @@ import {
 import ServiceCard from "./components/ServiceCard";
 import Image from "next/image";
 import AnimatedWavesClient from "./components/AnimatedWavesClient";
+import Snowfall from "./components/Snowfall";
 
 export default function Home() {
 	return (
 		<main className="relative min-h-screen bg-linear-to-br from-slate-900 via-blue-900 to-slate-900 text-gray-200 overflow-hidden">
+			<Snowfall />
 			{/* HERO */}
 			<section className="relative isolate">
 				{/* Background Banner Image */}
