@@ -461,7 +461,7 @@ export default function Home() {
 							<ul className="space-y-2 text-sm">
 								<li>
 									<a
-										href="/privacy-policy"
+										href="/privacy"
 										target="_blank"
 										className="
           group inline-flex items-center gap-1
@@ -511,7 +511,8 @@ export default function Home() {
 								</li>
 								<li>
 									<a
-										href="#"
+										href="/refund"
+										target="_blank"
 										className="
           group inline-flex items-center gap-1
           text-gray-400
@@ -535,7 +536,8 @@ export default function Home() {
 								</li>
 								<li>
 									<a
-										href="#"
+										href="/anti-discrimination"
+										target="_blank"
 										className="
           group inline-flex items-center gap-1
           text-gray-400
@@ -559,7 +561,8 @@ export default function Home() {
 								</li>
 								<li>
 									<a
-										href="#"
+										href="/cookies"
+										target="_blank"
 										className="
           group inline-flex items-center gap-1
           text-gray-400
