@@ -1,3 +1,29 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: "Cookies Consent",
+	description:
+		"Learn how Titonex uses cookies to ensure secure services, improve performance, and enhance user experience.",
+
+	alternates: {
+		canonical: "https://titonex.com/cookies",
+	},
+
+	openGraph: {
+		title: "Cookies Consent | Titonex",
+		description:
+			"Details on how Titonex uses cookies to maintain secure sessions, improve performance, and enhance user experience.",
+		url: "https://titonex.com/cookies",
+		siteName: "Titonex",
+		type: "article",
+	},
+
+	robots: {
+		index: true,
+		follow: true,
+	},
+};
+
 export default function CookiePolicy() {
 	return (
 		<main className="mx-auto 2xl:px-96 lg:px-64 md:px-24 px-6 pt-16 md:pt-24 pb-24 bg-linear-to-br from-slate-900 via-blue-950 to-slate-900 text-gray-300">
