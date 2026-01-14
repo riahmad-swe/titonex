@@ -1,3 +1,29 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: "Anti-Discrimination Policy",
+	description:
+		"Learn about Titonex's commitment to providing a safe, inclusive, and non-discriminatory environment across all platforms and services.",
+
+	alternates: {
+		canonical: "https://titonex.com/anti-discrimination",
+	},
+
+	openGraph: {
+		title: "Anti-Discrimination Policy | Titonex",
+		description:
+			"Titonex's policy on equal access, professional conduct, and zero tolerance for discrimination or harassment.",
+		url: "https://titonex.com/anti-discrimination",
+		siteName: "Titonex",
+		type: "article",
+	},
+
+	robots: {
+		index: true,
+		follow: true,
+	},
+};
+
 export default function AntiDiscriminationPolicy() {
 	return (
 		<main className="mx-auto 2xl:px-96 lg:px-64 md:px-24 px-6 pt-16 md:pt-24 pb-24 bg-linear-to-br from-slate-900 via-blue-950 to-slate-900 text-gray-300">
