@@ -461,7 +461,8 @@ export default function Home() {
 							<ul className="space-y-2 text-sm">
 								<li>
 									<a
-										href="#"
+										href="/privacy-policy"
+										target="_blank"
 										className="
           group inline-flex items-center gap-1
           text-gray-400
@@ -480,6 +481,55 @@ export default function Home() {
           "
 										>
 											Privacy Policy
+										</span>
+									</a>
+								</li>
+								<li>
+									<a
+										href="/terms"
+										target="_blank"
+										className="
+          group inline-flex items-center gap-1
+          text-gray-400
+          transition-all duration-200
+          hover:text-white
+        "
+									>
+										<span
+											className="
+            relative
+            after:absolute after:left-0 after:-bottom-0.5
+            after:h-px after:w-0
+            after:bg-accent
+            after:transition-all after:duration-300
+            group-hover:after:w-full
+          "
+										>
+											Terms of Service
+										</span>
+									</a>
+								</li>
+								<li>
+									<a
+										href="#"
+										className="
+          group inline-flex items-center gap-1
+          text-gray-400
+          transition-all duration-200
+          hover:text-white
+        "
+									>
+										<span
+											className="
+            relative
+            after:absolute after:left-0 after:-bottom-0.5
+            after:h-px after:w-0
+            after:bg-accent
+            after:transition-all after:duration-300
+            group-hover:after:w-full
+          "
+										>
+											Refund & Cancellation
 										</span>
 									</a>
 								</li>
@@ -521,14 +571,13 @@ export default function Home() {
 											className="
             relative
             after:absolute after:left-0 after:-bottom-0.5
-
             after:h-px after:w-0
             after:bg-accent
             after:transition-all after:duration-300
             group-hover:after:w-full
           "
 										>
-											Terms of Service
+											Cookies Consent
 										</span>
 									</a>
 								</li>
