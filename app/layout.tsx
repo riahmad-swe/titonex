@@ -2,6 +2,7 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import { Metadata } from "next";
 import ScrollToTop from "./components/ScrollToTop";
+import { Google_Sans } from "next/font/google";
 
 export const metadata: Metadata = {
 	metadataBase: new URL("https://titonex.com"),
@@ -64,6 +65,11 @@ export const metadata: Metadata = {
 	},
 };
 
+const googleSans = Google_Sans({
+	subsets: ["latin", "bengali"],
+	display: "swap",
+});
+
 export default function RootLayout({
 	children,
 }: {
@@ -74,7 +80,9 @@ export default function RootLayout({
 			lang="en"
 			className="dark"
 		>
-			<body className="bg-slate-950 text-gray-200">
+			<body
+				className={`${googleSans.className} bg-slate-950 text-gray-200`}
+			>
 				<ScrollToTop />
 				<Navbar />
 				<main className="pt-20">{children}</main>

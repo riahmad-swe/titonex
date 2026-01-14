@@ -7,8 +7,9 @@ import {
 	FaXTwitter,
 	FaYoutube,
 } from "react-icons/fa6";
-import AnimatedWaves from "./components/AnimatedWaves";
 import ServiceCard from "./components/ServiceCard";
+import Image from "next/image";
+import AnimatedWavesClient from "./components/AnimatedWavesClient";
 
 export default function Home() {
 	return (
@@ -17,10 +18,13 @@ export default function Home() {
 			<section className="relative isolate">
 				{/* Background Banner Image */}
 				<div className="absolute inset-0 -z-10">
-					<img
+					<Image
 						src="/banner.png"
 						alt="Titonex Banner"
-						className="w-full h-full object-cover"
+						priority
+						fill
+						sizes="100vw"
+						className="object-cover"
 					/>
 
 					{/* Overlay for readability */}
@@ -78,7 +82,7 @@ export default function Home() {
 					</div>
 				</div>
 
-				<AnimatedWaves />
+				<AnimatedWavesClient />
 			</section>
 
 			{/* SERVICES */}

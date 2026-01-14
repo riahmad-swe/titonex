@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
+import { useThrottledScroll } from "./useScroll";
 
 const navLinks = [
 	{ name: "Home", href: "/" },
@@ -17,6 +18,11 @@ export default function Navbar() {
 	const [open, setOpen] = useState(false);
 	const pathname = usePathname();
 	const drawerRef = useRef<HTMLDivElement>(null);
+	const [scrolled, setScrolled] = useState(false);
+
+	useThrottledScroll(() => {
+		setScrolled(window.scrollY > 20);
+	});
 
 	const isActive = (href: string) =>
 		href === "/" ? pathname === "/" : pathname.startsWith(href);
@@ -40,7 +46,11 @@ export default function Navbar() {
 	}, [open]);
 
 	return (
-		<header className="fixed top-0 left-0 w-full z-50 bg-slate-900/80 backdrop-blur border-b border-slate-800">
+		<header
+			className={`fixed top-0 left-0 w-full z-50 transition bg-slate-900/80 backdrop-blur border-b border-slate-800 ${
+				scrolled ? "shadow-lg bg-slate-900/80" : "bg-transparent"
+			}`}
+		>
 			<div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
 				{/* Logo + Title */}
 				<Link href="/">
