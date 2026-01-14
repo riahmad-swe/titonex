@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
+import Link from "next/link";
 
 const navLinks = [
 	{ name: "Home", href: "/" },
@@ -42,18 +43,20 @@ export default function Navbar() {
 		<header className="fixed top-0 left-0 w-full z-50 bg-slate-900/80 backdrop-blur border-b border-slate-800">
 			<div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
 				{/* Logo + Title */}
-				<div className="flex items-center gap-2 cursor-default">
-					<Image
-						src="/logo.png"
-						alt="Logo"
-						width={36}
-						height={36}
-						className="rounded-full"
-					/>
-					<span className="text-lg font-semibold tracking-wide">
-						Titonex
-					</span>
-				</div>
+				<Link href="/">
+					<div className="flex items-center gap-2">
+						<Image
+							src="/logo.png"
+							alt="Logo"
+							width={36}
+							height={36}
+							className="rounded-full"
+						/>
+						<span className="text-lg font-semibold tracking-wide">
+							Titonex
+						</span>
+					</div>
+				</Link>
 
 				{/* Desktop Nav */}
 				<nav className="hidden md:flex items-center gap-8 text-sm font-medium">
