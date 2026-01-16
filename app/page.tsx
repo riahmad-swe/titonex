@@ -258,7 +258,8 @@ export default function Home() {
 							<ul className="space-y-2 text-sm">
 								<li>
 									<a
-										href="#"
+										href="/about"
+										target="_blank"
 										className="
           group inline-flex items-center gap-1
           text-gray-400

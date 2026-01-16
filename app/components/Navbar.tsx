@@ -8,9 +8,8 @@ import { useThrottledScroll } from "./useScroll";
 
 const navLinks = [
 	{ name: "Home", href: "/" },
-	{ name: "Platforms", href: "/platforms" },
-	{ name: "Industries", href: "/industries" },
-	{ name: "Engineering", href: "/engineering" },
+	{ name: "About", href: "/about" },
+	{ name: "Products", href: "/products" },
 	{ name: "Contact", href: "/contact" },
 ];
 
