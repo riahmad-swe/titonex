@@ -30,7 +30,7 @@ export default function AboutPage() {
 					technology services company focused on building
 					enterprise-grade, real-world solutions. As a parent company,
 					Titonex operates across software, mobility, healthcare
-					support, and water technology—sectors where reliability,
+					support, and water technology - sectors where reliability,
 					responsibility, and long-term trust matter most.
 				</p>
 				<p className="leading-relaxed">
@@ -55,20 +55,20 @@ export default function AboutPage() {
 					<li>
 						Develop enterprise and industry-focused SaaS products,
 						including business management systems, logistics
-						software, and chain-business platforms
+						software, and chain-business platforms.
 					</li>
 					<li>
 						Provide a transparent, platform-based mobility service
 						that supports emergency transportation alongside
-						everyday travel needs
+						everyday travel needs.
 					</li>
 					<li>
 						Simplify access to healthcare through fast, ethical, and
-						technology-driven medical support
+						technology-driven medical support.
 					</li>
 					<li>
 						Deliver reliable water purification solutions combined
-						with intelligent software systems
+						with intelligent software systems.
 					</li>
 				</ul>
 			</section>
@@ -88,20 +88,20 @@ export default function AboutPage() {
 				<ul className="list-disc pl-6 space-y-2">
 					<li>
 						Businesses operate on reliable, locally-relevant
-						enterprise software
+						enterprise software.
 					</li>
 					<li>
 						Emergency and mobility services function without brokers
-						or agents, ensuring fairness and transparency
+						or agents, ensuring fairness and transparency.
 					</li>
 					<li>
 						Healthcare access is faster, more affordable, and
-						digitally enabled without compromising ethics
+						digitally enabled without compromising ethics.
 					</li>
 					<li>
 						Water technology solutions integrate proven physical
 						systems with modern software for monitoring, control,
-						and sustainability
+						and sustainability.
 					</li>
 				</ul>
 			</section>
@@ -118,14 +118,14 @@ export default function AboutPage() {
 						Enterprise & SaaS Solutions
 					</h3>
 					<ul className="list-disc pl-6 space-y-2">
-						<li>Company and operations management systems</li>
+						<li>Company and operations management systems.</li>
 						<li>
 							SaaS platforms for logistics, supply chains, and
-							service-based businesses
+							service-based businesses.
 						</li>
 						<li>
 							Custom enterprise solutions designed for scalability
-							and long-term use
+							and long-term use.
 						</li>
 					</ul>
 				</div>
@@ -142,14 +142,14 @@ export default function AboutPage() {
 						transparent pricing and accountability.
 					</p>
 					<ul className="list-disc pl-6 space-y-2">
-						<li>Emergency transportation services</li>
+						<li>Emergency transportation services.</li>
 						<li>
 							Regular ride options similar to ride-sharing
-							platforms
+							platforms.
 						</li>
-						<li>Long-distance and tour bookings</li>
-						<li>Airport pickup and drop-off services</li>
-						<li>School pickup and drop services</li>
+						<li>Long-distance and tour bookings.</li>
+						<li>Airport pickup and drop-off services.</li>
+						<li>School pickup and drop services.</li>
 					</ul>
 				</div>
 
@@ -166,21 +166,21 @@ export default function AboutPage() {
 					<ul className="list-disc pl-6 space-y-2">
 						<li>
 							Online consultation with registered and specialty
-							doctors
+							doctors.
 						</li>
-						<li>Prescriptions and immediate treatment guidance</li>
+						<li>Prescriptions and immediate treatment guidance.</li>
 						<li>
 							Access to senior and nationally recognized doctors
-							without travel
+							without travel.
 						</li>
-						<li>Discounted partner diagnostic lab services</li>
+						<li>Discounted partner diagnostic lab services.</li>
 						<li>
 							Follow-ups, report reviews, and updated
-							prescriptions
+							prescriptions.
 						</li>
 						<li>
 							Blood bank information, health tips, and medical
-							updates
+							updates.
 						</li>
 					</ul>
 					<p className="mt-3 text-sm text-gray-400">
@@ -195,14 +195,14 @@ export default function AboutPage() {
 						Water Technology Solutions
 					</h3>
 					<ul className="list-disc pl-6 space-y-2">
-						<li>Home RO filter installation</li>
-						<li>Water quality testing</li>
-						<li>Iron removal plant installation</li>
-						<li>Swimming pool water treatment</li>
-						<li>Industrial wastewater management systems</li>
+						<li>Home RO filter installation.</li>
+						<li>Water quality testing.</li>
+						<li>Iron removal plant installation.</li>
+						<li>Swimming pool water treatment.</li>
+						<li>Industrial wastewater management systems.</li>
 						<li>
 							De-mineralized water plants for pharmaceutical and
-							industrial use
+							industrial use.
 						</li>
 					</ul>
 					<p className="mt-3 leading-relaxed">
@@ -222,9 +222,9 @@ export default function AboutPage() {
 					Our engineering approach is built on three core principles:
 				</p>
 				<ul className="list-disc pl-6 space-y-2">
-					<li>Security-first design</li>
-					<li>Scalable architecture</li>
-					<li>High-availability systems</li>
+					<li>Security-first design.</li>
+					<li>Scalable architecture.</li>
+					<li>High-availability systems.</li>
 				</ul>
 				<p className="mt-4 leading-relaxed">
 					We design systems that are resilient, maintainable, and
@@ -238,12 +238,12 @@ export default function AboutPage() {
 					Ethics, Safety & Compliance
 				</h2>
 				<ul className="list-disc pl-6 space-y-2">
-					<li>Privacy and data protection</li>
-					<li>Medical ethics and informed consent</li>
-					<li>Non-discrimination and equal access</li>
+					<li>Privacy and data protection.</li>
+					<li>Medical ethics and informed consent.</li>
+					<li>Non-discrimination and equal access.</li>
 					<li>
 						Regulatory alignment with Bangladesh laws and applicable
-						standards
+						standards.
 					</li>
 				</ul>
 				<p className="mt-4 leading-relaxed">
@@ -258,10 +258,10 @@ export default function AboutPage() {
 					Who We Serve
 				</h2>
 				<ul className="list-disc pl-6 space-y-2">
-					<li>Enterprises and SMEs</li>
-					<li>Service-based businesses</li>
-					<li>Industry operators</li>
-					<li>Individual consumers</li>
+					<li>Enterprises and SMEs.</li>
+					<li>Service-based businesses.</li>
+					<li>Industry operators.</li>
+					<li>Individual consumers.</li>
 				</ul>
 				<p className="mt-3 text-sm text-gray-400">
 					(Excluding direct government service at this stage.)

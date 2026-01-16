@@ -13,7 +13,7 @@ export default function ServiceCard({ title, description }: Props) {
         transition-all duration-300
         hover:border-accent
         hover:-translate-y-1
-        hover:shadow-xl hover:shadow-blue-900/30
+        shadow-lg shadow-blue-600/30
         "
 		>
 			<h3
@@ -26,7 +26,9 @@ export default function ServiceCard({ title, description }: Props) {
 				{title}
 			</h3>
 
-			<p className="text-gray-400 text-sm leading-relaxed">{description}</p>
+			<p className="text-gray-400 text-sm leading-relaxed">
+				{description}
+			</p>
 		</div>
 	);
 }

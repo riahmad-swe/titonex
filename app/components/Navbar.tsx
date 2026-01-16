@@ -73,6 +73,7 @@ export default function Navbar() {
 						<a
 							key={link.name}
 							href={link.href}
+							target="_blank"
 							className={`
                 relative transition-all
                 ${
