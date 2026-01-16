@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import WhyTitonex from "../components/WhyTitonex";
 
 export const metadata: Metadata = {
 	title: "About",
@@ -8,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
 	return (
-		<main className="mx-auto 2xl:px-96 lg:px-64 md:px-24 px-6 pt-16 md:pt-24 pb-24 bg-linear-to-br from-slate-900 via-blue-950 to-slate-900 text-gray-300">
+		<main className="md:px-24 px-6 pt-16 md:pt-20 pb-24 bg-linear-to-br from-slate-900 via-blue-950 to-slate-900 text-gray-300">
 			{/* Page Header */}
 			<header className="mb-12 text-center">
 				<h1 className="text-3xl md:text-4xl font-bold text-white mb-3">
@@ -268,18 +269,7 @@ export default function AboutPage() {
 			</section>
 
 			{/* Why Titonex */}
-			<section>
-				<h2 className="text-2xl font-semibold text-white mb-4">
-					Why Titonex
-				</h2>
-				<p className="leading-relaxed">
-					At Titonex, we do not build technology for
-					experimentation—we build it for real use, real
-					responsibility, and real impact. Our focus is long-term
-					trust, operational clarity, and systems that people can
-					depend on when it matters most.
-				</p>
-			</section>
+			<WhyTitonex />
 		</main>
 	);
 }
